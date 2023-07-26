@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.cart-list-form {
+  margin-top: 15px;
+  padding: 15px;
+}
+.cart-list-form .field-group {
+  display: flex;
+  margin-bottom: 0px;
+}
+.cart-list-form form {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-list-form .field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.cart-list-form .field label.label {
+  margin-bottom: 0px;
+  width: 70px;
+}
+.cart-list-form input {
+  width: 100%;
+}
+.cart-list-form h4.subtitle.is-3 {
+  margin-bottom: 0.75rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cart-list .panel {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-list p {
+  font-size: 1.5rem;
+}
+
+.cart-list .note {
+  font-style: italic;
+  display: block;
+  margin: 40px 20px;
+}
+
+.cart-list-value {
+  font-size: 2rem;
+  text-align: right;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.reset-all {
+  height: 56px;
+  font-size: 24px;
 }
