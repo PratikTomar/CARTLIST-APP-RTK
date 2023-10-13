@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Form from './components/form/form.component';
 
 import { useDispatch} from 'react-redux';
 import { reset } from './redux/actions/action';
